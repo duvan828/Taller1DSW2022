@@ -1,2 +1,2 @@
-# desarrolloweb2022
-https://duvan828.github.io/Taller1DSW2022/
+# desarrolloweb
+https://duvan828.github.io/taller1/
