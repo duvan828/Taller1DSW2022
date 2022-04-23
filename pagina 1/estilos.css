@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-menu {
+    background: #000000;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    position: absolute;
+    color: #FFFFFFFF;
+    font-size: 30px;
+    top: 8px;
+    left: 5%;
+    font-weight: bold;
+}
+
+.navbar-menu ul {
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-options li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.nav-options li a {
+    color: #FFFFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 3px;
+}
+
+a:focus,
+a:hover {
+    background-color: #387ACF;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 25px;
+    float: right;
+    color: #FFFFFFFF;
+    line-height: 50px;
+    margin-right: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+section {
+    width: 100%;
+}
+
+.banner {
+    height: 97vh;
+    position: relative;
+    background-color: blue;
+}
+
+.banner-content img {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    color: #ffffff;
+    top: 37%;
+    left: 50%;
+    transform: translateX(0%) translateY(-45%);
+}
+
+.banner-text h2 {
+    font-size: 45px;
+}
+
+.banner-text a {
+    display: block;
+    color: #f5f2f2;
+    text-decoration: none;
+    width: 100px;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #f5f2f2;
+}
+
+.banner-text a:hover {
+    background-color: #f5f2f2;
+    color: grey;
+}
+
+@media(max-width:1024px) {
+    .logo {
+        padding-left: 40px;
+    }
+    .nav-options li a {
+        font-size: 16px;
+        padding: 7px 10px;
+    }
+    .banner {
+        height: 80vh;
+    }
+    .banner-content img {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 768px) {
+    .checkbtn {
+        display: block;
+    }
+    .nav-options {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #21427f;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+    }
+    .nav-options li {
+        display: block;
+        border: 1px solid #F4F0F0;
+        z-index: 1;
+    }
+    .nav-options li a {
+        font-size: 18px;
+    }
+    nav li:hover {
+        background-color: #EEEAEA;
+    }
+    nav li a:hover {
+        color: #2F2E2E;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    .banner {
+        height: 55vh;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-text p {
+        font-size: 14px;
+    }
+    .banner-text a {
+        font-size: 14px;
+        width: 60px;
+    }
+}
