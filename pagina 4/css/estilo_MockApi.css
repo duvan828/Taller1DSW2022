@@ -1,0 +1,36 @@
+body{
+    min-width: 360px;
+}
+
+.cont-btn{
+    display: flex;
+    align-items: center;
+}
+.cont-btn button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+display: flex;
+justify-content: space-around;
+}
+.bg-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-btn i{
+    font-size: 28px;
+}
+.cont-btn button:hover{
+    transform: translateY(-3px);
+    transition: all ease .2s;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.93);
+    /* border-radius: 20px; */
+}
+ /* .optrabajo{ 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+ } */

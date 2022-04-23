@@ -1,0 +1,129 @@
+body{
+    min-width: 350px;
+        display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+header .nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(167, 62, 62);
+}
+header .navbar{
+    background-color: #ebbf3c;
+}
+#navbarNav{
+    justify-content: center;
+}
+
+main .sectionAcabados{
+    color: white;
+    height: 500px;
+    background-image: linear-gradient(rgba(228, 215, 215, 0.2), rgba(192, 180, 180, 0.145)),
+      url(../img/1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+main .acabados{
+    background-color: rgba(158, 158, 158, 0.315);
+    /* display: block; */
+}
+
+main .opciones a{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 4px;
+    padding: 5px;
+    background-color: #b45f06;
+    border-radius: 20px;
+}
+
+ main .opciones{
+    display: flex;
+    flex-direction: column;
+}
+main .SectionNosotros{
+display: flex;
+background-color: #ffd966;
+flex-direction: column;
+align-items: center;
+}
+
+main .definicion{
+    text-align: justify;
+}
+
+main .sectionRealizaciones{
+background-color: #ddbb56;
+}
+
+main .card-bg{
+    background-color: rgb(247, 207, 121);
+}
+
+.cont-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.cont-card img{
+    height: 18rem;
+}
+/* ////////////////////////////// */
+footer{
+    background-color: rgba(107, 76, 18, 0.467);
+}
+
+
+/* ////////Estilo Pintura en paredes////////////////////// */
+main .sectionAcabadosParedes{
+    color: white;
+    height: 500px;
+    background-image: linear-gradient(rgba(228, 215, 215, 0.2), rgba(192, 180, 180, 0.145)),
+      url(../img/pintarapared.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+.sectionAcabadosParedes p{
+    font-size: 20px;
+}
+
+
+/* ////////////////Estilo Pintura madera///////////////////////// */
+
+main .sectionAcabadosMuebles{
+    color: white;
+    height: 500px;
+    background-image: linear-gradient(rgba(228, 215, 215, 0.2), rgba(192, 180, 180, 0.145)),
+      url(../img/muebles.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+.sectionAcabadosMuebles p{
+    font-size: 20px;
+}
+
+/* //////////////sectionContactanos//////////////// */
+.sectionContactanos{
+    background-image: linear-gradient(rgba(228, 215, 215, 0.2), rgba(192, 180, 180, 0.145)),
+    url(../img/contac.jpg);
+  background-size: cover;   
+}
+.main-contac{
+    background-image: linear-gradient(rgba(228, 215, 215, 0.2), rgba(192, 180, 180, 0.145)),
+    url(../img/paredes3.jpg);
+  background-size: cover; 
+  display: flex;
+  align-items: center;
+}
