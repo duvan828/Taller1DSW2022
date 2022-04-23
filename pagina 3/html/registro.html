@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registro</title>
+        <link rel="icon" href="../icon.ico" />
+        <link rel="stylesheet" href="../css/estilos.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" />
+    </head>
+
+    <body id="bodyRegistro">
+        <header>
+            <div id="icono">
+                <a href="../index.html">
+                    <img src="../icono.png" alt="" id="icon" />
+                    <h1>BoxAnime</h1>
+                </a>
+            </div>
+
+            <nav id="novedades">
+                <ul>
+                    <li><a href="#" class="contenido">Nuevos animes</a></li>
+                    <li><a href="#" class="contenido">Foro</a></li>
+                    <li><a href="#" class="contenido">Recomendados</a></li>
+                    <li><a href="#" class="contenido">Lo más visto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="" id="fomulario">
+                <section id="llenaDatos">
+                    <section id="registro">
+                        <h2 class="titulo">Registrarse</h2>
+                        <section class="campos">
+                        <input type="email" class="inputs" name="correo" placeholder="Ingrese un email"/>
+                        <input type="text" class="inputs" name="usuario" placeholder="Ingrese un usuario"/>
+                        <input type="password" class="inputs" name="contraseña" placeholder="Ingrese una contraseña"/>
+                        <input type="date" class="inputs" name="fecha" value="fecha" />
+                        <div class="gen">
+                            <h4>Género:</h4>
+                            <div>
+                                <input type="radio" id="femenino" name="genero" value="F" />
+                                <label for="femenino">Femenino</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="masculino" name="genero" value="M"/>
+                                <label for="masculino">Masculino</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="otro" name="genero" value="O"/>
+                                <label for="otro">Otro</label>
+                            </div>
+                        </div>
+                        <input type="submit" class="boton" value="Registrar" />
+                    </section>
+                    </section>
+                    <section id="inicio">
+                        <h2>Inicio de sesión</h2>
+                        <div class="campos2">
+                        <input type="text" id="usuario" class="inputs" name="usuario" placeholder="Ingrese Email o Usuario"/>
+                        <input type="password" id="contraseña" class="inputs" name="contraseña" placeholder="Contraseña"/>
+                        <input type="submit" class="boton" value="Iniciar" />
+                        </div>
+                        <a href="#">¿Olvidó su contraseña?</a>
+                    </section>
+                </section>
+            </form>
+        </main>
+        <footer>
+        <section class="info">
+        <section class="red">
+            <h2>Redes sociales</h2>
+            <div class="redes container">
+            <ul>
+                <li><a href="#" class="facebook"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#" class="twitter"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#" class="whatsapp"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+            </div>
+        </section>
+        <h4 class="nosotros"><span>Hecho por:</span> Brayan Steven Jimenez Ruiz y Anuar David Gomez Quiroga</h4>
+        </section>
+        <h6>Trabajo Universidad de Córdoba - Desarrollo Web 1</h6>
+    </footer>
+    </body>
+
+</html>
